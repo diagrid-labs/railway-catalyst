@@ -1,0 +1,21 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dapr/dapr": "^3.5.2",
+    "axios": "^1.8.2",
+    "body-parser": "^1.20.3",
+    "cloudevents": "^8.0.2",
+    "express": "^4.21.0",
+    "uuid": "^9.0.1"
+  }
+}

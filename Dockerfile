@@ -17,7 +17,7 @@ RUN apk add --no-cache --virtual .build-deps \
   && apk del .build-deps
 
 # Copy the rest of the application code
-COPY workflow/python .
+COPY . .
 
 ENV UVICORN_PORT=5001
 

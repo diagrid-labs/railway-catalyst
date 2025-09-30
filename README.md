@@ -1,6 +1,6 @@
-# Catalyst Quickstarts
+# Railway Catalyst Starter
 
-This repo contains the code and scripts used to create Catalyst quickstart projects via the  `diagrid project quickstart create` command
+This repo contains the code and scripts used to deploy Dapr Workflow app on Railway and Catalyst
 
 ## Getting Started
 
@@ -14,14 +14,13 @@ First, authenticate with Diagrid Catalyst:
 
 ```bash
 diagrid login
-diagrid whoami
 ```
 
 Create a new Catalyst project and app ID:
 
 ```bash
 # Create a new project (if it doesn't exist)
-diagrid project create railway-catalyst
+diagrid project create railway-catalyst-starter
 
 # Create an app ID for the workflow
 diagrid appid create order-workflow

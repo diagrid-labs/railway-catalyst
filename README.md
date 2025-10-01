@@ -58,14 +58,13 @@ export APP_URL=https://your-app-url.railway.app
 
 **Start a workflow:**
 ```bash
-curl -i -X POST $APP_URL/workflow/start \
+export WORKFLOW_ID=$(curl -s -X POST $APP_URL/workflow/start \
   -H "Content-Type: application/json" \
-  -d '{"name":"Car", "quantity":2}'
+  -d '{"name":"Car", "quantity":2}' | jq -r '.instanceId')
 ```
 
 **Check workflow status:**
 ```bash
-export WORKFLOW_ID=your-workflow-id
 curl -i -X GET $APP_URL/workflow/status/$WORKFLOW_ID
 ```
 

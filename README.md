@@ -1,16 +1,15 @@
 # Railway Catalyst Starter
 
-This repo contains the code and scripts used to deploy Dapr Workflow app on Railway and Catalyst
-
-## Getting Started
+This is a Railway template app that demonstrates a Dapr Workflow implementation for order processing.
 
 ### Deploying to Railway
 
-This is a Railway template app that demonstrates a Dapr Workflow implementation for order processing.
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/railway-catalyst-starter)
+
 
 #### 1. Set Up Diagrid Catalyst
 
-First, authenticate with Diagrid Catalyst:
+First, sign up authenticate with [Diagrid Catalyst](https://docs.diagrid.io/catalyst/):
 
 ```bash
 diagrid login
